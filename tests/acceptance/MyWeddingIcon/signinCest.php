@@ -10,13 +10,14 @@ class signinCest
 
     public function _after(AcceptanceTester $I)
     {
-		// $I->click('body');
+		
     }
 
-    // tests
+    // test cases
     public function tryToTest(AcceptanceTester $I)
     {
-	include('register.php'); #
+	
+	// include('register.php'); #
 	 // include('joingopage.php');
 	include('signin.php'); #
 	// include('finddeal.php');#

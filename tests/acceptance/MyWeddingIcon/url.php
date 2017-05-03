@@ -1,3 +1,3 @@
 <?php
-$I->amOnUrl('http://myweddingicon.com/');
+$I->amOnUrl('http://dev.myweddingicon.com/');
 ?>
