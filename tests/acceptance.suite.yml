@@ -7,8 +7,8 @@
 class_name: AcceptanceTester
 modules:
     enabled:
-         #- PhpBrowser
-         - WebDriver
+         - PhpBrowser
+         #- WebDriver
          - \Helper\Acceptance
     config:
        PhpBrowser:
