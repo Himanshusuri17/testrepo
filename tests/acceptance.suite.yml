@@ -7,12 +7,13 @@
 class_name: AcceptanceTester
 modules:
     enabled:
-         #- PhpBrowser
-         - WebDriver
+         - PhpBrowser
+         #- WebDriver
          - \Helper\Acceptance
     config:
        PhpBrowser:
           url: 'http://localhost/myapp'
+          
        WebDriver:
           url: 'http://localhost/myapp'
           wait: 3
